@@ -47,7 +47,7 @@ def render_global_styles() -> None:
         }
 
         [data-testid="stHeader"] {
-            display: none;
+            background: transparent;
         }
 
         [data-testid="stToolbar"],
