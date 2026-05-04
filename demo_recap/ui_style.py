@@ -62,6 +62,12 @@ def render_global_styles() -> None:
             box-shadow: 12px 0 30px rgba(69, 42, 25, 0.06);
         }
 
+        [data-testid="stSidebarHeader"],
+        [data-testid="stSidebarCollapseButton"],
+        [data-testid="stSidebarCollapsedControl"] {
+            display: none;
+        }
+
         [data-testid="stSidebar"] [data-testid="stSidebarContent"] {
             padding: 2rem 1rem 1.25rem;
         }

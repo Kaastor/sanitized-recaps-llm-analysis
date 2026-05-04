@@ -11,7 +11,7 @@ from demo_recap.ui_style import render_global_styles
 
 
 def main() -> None:
-    st.set_page_config(page_title="Demo Insights", page_icon="🛡️", layout="wide")
+    st.set_page_config(page_title="Demo Insights", page_icon="🛡️", layout="wide", initial_sidebar_state="expanded")
     render_global_styles()
     selected_page = render_sidebar()
 
